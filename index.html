@@ -1,1 +1,29 @@
-aaaaaaaa
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Trabalhando com vetores</h1>
+  <form id="formulario">
+    <label for="valor">Digite um valor de cada vez:</label>
+    <input type="text" id="valor"><br>
+    <button type="button" id="add-btn" onclick="adicionarValor()">Adicionar Valor</button>
+    <table id="tabelaValores">
+      <thead>
+        <tr>
+          <th>Valores</th>
+        </tr>
+      </thead>
+      <tbody id="tbody-valores">
+      </tbody>
+    </table>
+    <button type="button" id="contar-btn" onclick="contarDois()">Contar números iguais a 2</button>
+    <p id="resultado-contagem"></p>
+  </form>
+  <script src="js/script.js"></script>
+</body>
+</html>
